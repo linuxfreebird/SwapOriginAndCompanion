@@ -1,0 +1,11 @@
+new entry "SwapOriginAndCompanionMainSpell"
+type "SpellData"
+data "SpellType" "Target"
+data "Icon" "Action_WildMagic_Swap"
+data "DisplayName" "he17b4c7f2f0c4f36b6208ced1a06a9f17157" 
+data "Description" "hd53a455a0ce949c9b872c979b54f21c90fcb"
+data "TargetConditions" "" // SwapOriginAndCompanionMainSpell
+data "CastSound" "Action_Cast_WeaknessBranding"
+data "HitAnimationType" "MagicalNonDamage" 
+data "SpellAnimationIntentType" "Peaceful"
+data "SpellFlags" "ImmediateCast" 

@@ -1,0 +1,5 @@
+{
+    "RequiredVersion": 15,
+    "ModTable": "SwapOriginAndCompanion",
+    "FeatureFlags": ["Lua"]
+}

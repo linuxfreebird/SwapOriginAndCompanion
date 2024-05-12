@@ -1,0 +1,5 @@
+Ext.Require("Server/config.lua")
+Ext.Require("Server/utils.lua")
+Ext.Require("Server/SwapOriginAndCompanion.lua")
+Ext.Require("Server/spell_handlers.lua")
+Ext.Require("Server/init.lua")
