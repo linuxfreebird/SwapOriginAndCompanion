@@ -2,9 +2,9 @@
 
 -- Thanks to Moxi, Focus, BOZNAZ, and Cerberry for pioneering the code leading up to this development.
 
--- Special thanks to the following community members that provided their patience, guidiance and mentorship
+-- Special thanks to the following community members that provided their patience, guidance and mentorship
 -- to help me figure out how to write this code from scratch with zero knowledge in mod development, 
--- Lua or BG3SE in a 12 hour developement time: 
+-- Lua or BG3SE in a 12 hour development time: 
 -- Aahz, Zehtuka, primal_fire, simosas, ResplendentArrow, JuuM,
 -- Chip Chocolate, Legendary Muffin Hippo0o, Satan - ISF Enjoyer, Kilay -  Random Reader,
 -- PeachyKee, TechRoo, Cereals, the croc house and anyone else I forgot to mention.
@@ -15,14 +15,14 @@
 -- The purpose of this function is to allow the player to swap the origin character
 -- with a party companion, such that they can exchange dialogue with one another,
 -- perform the swap in a convenient and fast way without using console commands,
--- roleplay romance between the alternativing avatars, and who knows what else.
+-- role-play romance between the alternating avatars, and who knows what else.
 -- The ideal goal is to make this code as stable as possible to not break and important cut scenes
 -- or quest lines. I assume approval, romance state, and other important parameters are 
 -- preserved between swaps, but further testing is needed to verify.
 
 function SwapOriginAndCompanionLogic(caster, target, spell, _, _, _)
     -- The caster is the origin with the avatar status.
-    -- The targer is the companion character you want to swap avatar status with.
+    -- The target is the companion character you want to swap avatar status with.
 
     -- We start by promoting the companion to avatar status.
 
